@@ -16,6 +16,7 @@ public class CustomUser extends User {
 	// 그러기위해 User타입으로 변환해줄 클래스
 	
 	private Member member;
+	
 
 	public CustomUser(Member member) {
 		super(member.getUsername(), member.getPassword(), 
