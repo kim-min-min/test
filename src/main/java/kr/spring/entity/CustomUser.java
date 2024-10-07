@@ -17,6 +17,7 @@ public class CustomUser extends User {
 	
 	private Member member;
 	
+	
 
 	public CustomUser(Member member) {
 		super(member.getUsername(), member.getPassword(), 
